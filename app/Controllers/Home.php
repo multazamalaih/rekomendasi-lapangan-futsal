@@ -19,4 +19,8 @@ class Home extends BaseController
         ];
         return view('pages/home', $data);
     }
+    public function about(): string
+    {
+        return view('pages/about');
+    }
 }
